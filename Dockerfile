@@ -10,4 +10,4 @@ RUN ["pip3", "install", "pipenv"]
 
 RUN ["pipenv", "install"]
 
-CMD pipenv run python main.py
+CMD pipenv run python api.py
