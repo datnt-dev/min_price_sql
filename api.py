@@ -1,7 +1,6 @@
 import json
 import decimal
 from flask import Flask, request, jsonify
-from flask_restful import marshal
 from database import get_connection
 # from flask_marshmallow import Marshmallow
 
